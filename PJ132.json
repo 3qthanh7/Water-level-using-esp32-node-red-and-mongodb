@@ -1,0 +1,1884 @@
+[
+    {
+        "id": "e3e0ccb1eb8f3333",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5bfeef237ac94587",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c852696e7e8c3dc8",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0c453c029c047f5d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.137.120",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "359f961ecf0d7729",
+        "type": "ui_tab",
+        "name": "Hệ thống",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1f61edd7d41f5bc4",
+        "type": "ui_group",
+        "name": "Giám sát hệ thống",
+        "tab": "359f961ecf0d7729",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3b5d8b8900482085",
+        "type": "ui_group",
+        "name": "Điều khiển hệ thống",
+        "tab": "359f961ecf0d7729",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "438f85e91202c45f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Test Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ec4120bbe958fcb6",
+        "type": "ui_tab",
+        "name": "Test SVG",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "230873fe20067182",
+        "type": "ui_group",
+        "name": "Giám sát",
+        "tab": "ec4120bbe958fcb6",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a450f0162daeb62e",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "f8ef47b5280ca9d2",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false
+    },
+    {
+        "id": "f8ef47b5280ca9d2",
+        "type": "ui_tab",
+        "name": "Tan",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bebe9b4002d42f24",
+        "type": "ui_group",
+        "name": "Điều khiển",
+        "tab": "ec4120bbe958fcb6",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4762a0d9640ceb45",
+        "type": "ui_group",
+        "name": "Biểu đồ",
+        "tab": "359f961ecf0d7729",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "33307744a155b6bc",
+        "type": "ui_spacer",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "spacer",
+        "group": "3b5d8b8900482085",
+        "order": 5,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "fea1804231e64328",
+        "type": "mqtt in",
+        "z": "e3e0ccb1eb8f3333",
+        "d": true,
+        "name": "Get sensor data",
+        "topic": "Sensor",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "0c453c029c047f5d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 460,
+        "wires": [
+            [
+                "71e5cdb3259cfcad",
+                "9bb8e98e3a4712e8",
+                "72e17b36876ed4ed",
+                "62fe5d6399a37c0c"
+            ]
+        ]
+    },
+    {
+        "id": "a5cd378b78c48952",
+        "type": "mqtt out",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "topic": "Motor1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0c453c029c047f5d",
+        "x": 940,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "206d1ffa20681340",
+        "type": "mqtt out",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "topic": "Motor2",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0c453c029c047f5d",
+        "x": 940,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0678071482f16232",
+        "type": "mqtt in",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "State of tank",
+        "topic": "Status",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "0c453c029c047f5d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "1369ca31d5d9e570",
+                "266b7aafe615b5c6",
+                "e8b6e1cd03becfab"
+            ]
+        ]
+    },
+    {
+        "id": "1369ca31d5d9e570",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Set flow for status",
+        "func": "var status;\nstatus = msg.payload;\nflow.set(\"status\",status);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "266b7aafe615b5c6",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Full",
+        "func": "var s1 = flow.get(\"status\");\nif(s1 == 2)\n    {\n        msg.payload = s1;\n        return msg;\n    }\nreturn",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "60644af2c7ea1041"
+            ]
+        ]
+    },
+    {
+        "id": "60644af2c7ea1041",
+        "type": "change",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Turn Off 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "c35f332ba52b358b"
+            ]
+        ]
+    },
+    {
+        "id": "e8b6e1cd03becfab",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Empty",
+        "func": "var s2 = flow.get(\"status\");\nif(s2 == 0)\n    {\n        msg.payload = s2;\n        return msg;\n    }\nreturn",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 360,
+        "wires": [
+            [
+                "c1b67727ed8b75ad"
+            ]
+        ]
+    },
+    {
+        "id": "c1b67727ed8b75ad",
+        "type": "change",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Turn Off 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35466e09d398a34d",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Set flow for Switch 1",
+        "func": "var sw1;\nsw1 = msg.payload;\nflow.set(\"sw1\",sw1);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be423ae753323636",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Set status",
+        "func": "var status =flow.get(\"status\");\nvar sw1 =flow.get(\"sw1\");\nvar sw2 =flow.get(\"sw2\");\nif(status == 2)\n    {\n        if(sw1 == true)\n            {\n                msg.payload = \"Cảnh báo bồn đã đầy\";\n                status = 2;\n                flow.set(\"status\",status);\n            }\n        else\n            {\n                msg.payload = \"Bồn đầy\";\n            }\n    }\nelse if(status == 0)\n    {\n        if(sw2 == true)\n            {\n                msg.payload = \"Cảnh báo bồn đã cạn\";\n                status = 0;\n                flow.set(\"status\",status)\n            }\n        else\n            {\n                msg.payload = \"Bồn cạn\";\n            }\n    }\nelse\n    {\n        if(sw1 == true && sw2 == true)\n            {\n            msg.payload = \"Đang bơm vào và ra\";\n            }\n        else if(sw1 == true && sw2 == false)\n            {\n            msg.payload = \"Đang bơm vào\";\n            }\n        else if(sw1 == false && sw2 == true)\n            {\n            msg.payload = \"Đang bơm ra\";\n            }\n        else\n            {\n            msg.payload = \"Bình thường\"\n            }\n    }\n    return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 240,
+        "wires": [
+            [
+                "12b77cecb571c4f7"
+            ]
+        ]
+    },
+    {
+        "id": "bdcfc131f5b69fc4",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Set flow for Switch 2",
+        "func": "var sw2;\nsw2 = msg.payload;\nflow.set(\"sw2\",sw2);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a10e0dbdac563b9",
+        "type": "inject",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "be423ae753323636"
+            ]
+        ]
+    },
+    {
+        "id": "ca7ae42fed725e67",
+        "type": "inject",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "266b7aafe615b5c6"
+            ]
+        ]
+    },
+    {
+        "id": "a678990e9e5123a5",
+        "type": "inject",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "e8b6e1cd03becfab"
+            ]
+        ]
+    },
+    {
+        "id": "72e17b36876ed4ed",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Set flow for sensor",
+        "func": "var sensor;\nif (msg.payload <=0)\n{\n    sensor=0;\n}\nelse\n{\n    sensor = msg.payload;\n}\nflow.set(\"sensor\",sensor);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62fe5d6399a37c0c",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Get data",
+        "func": "var time =flow.get(\"timenow\");\nvar sensor =flow.get(\"sensor\");\nif(time == null || sensor == null)\n    {\n        return;\n    }\nelse\n    {\n    var A = { \"Mực nước\": sensor, \"Thời gian\": Date.now()};\n    }\nmsg.url = \"mongodb+srv://Qthanh01:Project1@cluster0.kfvfo.mongodb.net/MyData?retryWrites=true&w=majority\";\nmsg.db_name = \"MyData\";\nmsg.db_collection = \"WaterLevel\";\nmsg.payload = A;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37260d3dce2b48b6",
+        "type": "debug",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "2f7f915cd99e3535",
+        "type": "aedes broker",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "df12eafaee9a2926",
+        "type": "ui_switch",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "label": "Bơm ra",
+        "tooltip": "",
+        "group": "3b5d8b8900482085",
+        "order": 8,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 640,
+        "y": 380,
+        "wires": [
+            [
+                "206d1ffa20681340",
+                "bdcfc131f5b69fc4"
+            ]
+        ]
+    },
+    {
+        "id": "2b41ddfc528d7610",
+        "type": "ui_switch",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "label": "Bơm vào",
+        "tooltip": "",
+        "group": "3b5d8b8900482085",
+        "order": 7,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "Switch_in",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "a5cd378b78c48952",
+                "35466e09d398a34d"
+            ]
+        ]
+    },
+    {
+        "id": "12b77cecb571c4f7",
+        "type": "ui_text",
+        "z": "e3e0ccb1eb8f3333",
+        "group": "3b5d8b8900482085",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Trạng thái:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 850,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9bb8e98e3a4712e8",
+        "type": "ui_gauge",
+        "z": "e3e0ccb1eb8f3333",
+        "d": true,
+        "name": "",
+        "group": "3b5d8b8900482085",
+        "order": 9,
+        "width": 10,
+        "height": 5,
+        "gtype": "wave",
+        "title": "Mực nước",
+        "label": " mL",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 510,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "71e5cdb3259cfcad",
+        "type": "ui_chart",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "group": "4762a0d9640ceb45",
+        "order": 1,
+        "width": "10",
+        "height": 5,
+        "label": "Biểu đồ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "1200",
+        "removeOlder": "10",
+        "removeOlderPoints": "50",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 500,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "867e7cd829a80281",
+        "type": "insertOne",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "x": 740,
+        "y": 560,
+        "wires": [
+            [
+                "37260d3dce2b48b6"
+            ]
+        ]
+    },
+    {
+        "id": "c35f332ba52b358b",
+        "type": "debug",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "f9733fd745422c05",
+        "type": "inject",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 680,
+        "wires": [
+            [
+                "bc3f942cb3190339"
+            ]
+        ]
+    },
+    {
+        "id": "a1d7374c50128f88",
+        "type": "drawsvg-local",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "x": 1100,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de5cc0e9b45f4572",
+        "type": "ui_slider",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "label": "Set Point",
+        "tooltip": "",
+        "group": "3b5d8b8900482085",
+        "order": 3,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "changewater",
+        "topicType": "msg",
+        "min": "0",
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 120,
+        "y": 760,
+        "wires": [
+            [
+                "29b6fb4c87637c6c",
+                "2a8d4c457f2ab376"
+            ]
+        ]
+    },
+    {
+        "id": "891f0749fb6cbb88",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Up_Value_Water_Level",
+        "func": "const msgInput = msg.payload;\n\nconst msgOutput =\n{ payload:\n    {\n        command: \"update_style\",\n        selector: \"#WaterLevel\",\n        attributeName: \"height\",\n        attributeValue: msgInput\n    }\n};\nreturn msgOutput;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 680,
+        "wires": [
+            [
+                "8d6a7cbb1bc72029"
+            ]
+        ]
+    },
+    {
+        "id": "d9ec99cd240a158a",
+        "type": "range",
+        "z": "e3e0ccb1eb8f3333",
+        "minin": "0",
+        "maxin": "1000",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 440,
+        "y": 680,
+        "wires": [
+            [
+                "891f0749fb6cbb88"
+            ]
+        ]
+    },
+    {
+        "id": "8d6a7cbb1bc72029",
+        "type": "ui_svg_graphics",
+        "z": "e3e0ccb1eb8f3333",
+        "group": "1f61edd7d41f5bc4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1000\" height=\"500\" viewBox=\"0 0 1000 500\" preserveAspectRatio=\"xMidYMid meet\"><defs id=\"svgEditorDefs\"><rect height=\"10\" style=\"fill:black;stroke:none;\" width=\"10\" x=\"-5\" y=\"-5\"/><marker id=\"square10\" markerHeight=\"10\" markerUnits=\"strokeWidth\" markerWidth=\"10\" orient=\"auto\" refX=\"0\" refY=\"0\"\n    viewBox=\"-5 -5 10 10\"></marker><marker id=\"circle10\" markerHeight=\"10\" markerUnits=\"strokeWidth\" markerWidth=\"10\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><circle cx=\"0\" cy=\"0\" r=\"5\" style=\"fill:black;stroke:none;\"/></marker><marker id=\"arrow20-16-right\" markerHeight=\"16\" markerUnits=\"strokeWidth\" markerWidth=\"20\" orient=\"auto\" refX=\"-3\" refY=\"0\" viewBox=\"-15 -5 20 20\"><path d=\"M -15 -5 L 0 0 L -15 5 z\" fill=\"black\"/></marker><style type=\"text/css\">.svg_a{fill:blue;cursor:pointer;}\n.svg_a:hover{text-decoration:underline;}\n</style></defs><rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" style=\"fill:none;stroke:none\"/>\n<!-- Add here your SVG shapes (circles, rectangles, ...) -->\n<!-- Or remove everything, if you want to paste an entire drawing (<svg...>...</svg>).-->\n<rect x=\"600\" y=\"300\" style=\"stroke:black;stroke-width:1px;fill:white\" id=\"WaterTank\" width=\"100\" height=\"200\"/><rect x=\"600\" y=\"300\" style=\"stroke-width:1px;fill:cornflowerblue;stroke:cornflowerblue\" id=\"WaterLevel\" width=\"100\" height=\"200\" transform=\"matrix(1 0 0 -1 0 800)\"/><path d=\"M600,400h100\" style=\"fill:none;stroke:red;stroke-width:2px\" id=\"SP_line\"/><text dy=\"-0.5em\" style=\"fill:black;font-family:Arial;font-size:20px\" id=\"SP_text\" xml:space=\"preserve\"><textPath id=\"SP_textPath\" xlink:href=\"#SP_line\" style=\"fill:red;\" spacing=\"exact\" startOffset=\"9.8\">Set Point</textPath></text></svg>",
+        "clickableShapes": [],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "noClickWhenDblClick": false,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "",
+        "panning": "disabled",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "dblClickZoomPercentage": 150,
+        "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit;\n}",
+        "name": "",
+        "x": 900,
+        "y": 680,
+        "wires": [
+            [
+                "a1d7374c50128f88"
+            ]
+        ]
+    },
+    {
+        "id": "bc3f942cb3190339",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Hàm ngẫu số",
+        "func": "\nmsg.payload = Math.floor(Math.random() * 1000);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 680,
+        "wires": [
+            [
+                "d9ec99cd240a158a",
+                "9bb8e98e3a4712e8",
+                "71e5cdb3259cfcad"
+            ]
+        ]
+    },
+    {
+        "id": "29b6fb4c87637c6c",
+        "type": "range",
+        "z": "e3e0ccb1eb8f3333",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "500",
+        "maxout": "300",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 440,
+        "y": 760,
+        "wires": [
+            [
+                "3364e34b7944f9cf"
+            ]
+        ]
+    },
+    {
+        "id": "3364e34b7944f9cf",
+        "type": "function",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "Up value Set Point",
+        "func": "const Setpoint = msg.payload;\nlet Mid = Setpoint.toString();\nlet Left = \"M600,\";\nlet Right = \"h100\";\nlet d = Left + Mid + Right;\n\nconst msgOutput =\n{ payload:\n    {\n        command: \"update_attribute\",\n        selector: \"#SP_line\",\n        attributeName: \"d\",\n        attributeValue: d\n    }\n};\nreturn msgOutput;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 760,
+        "wires": [
+            [
+                "8d6a7cbb1bc72029"
+            ]
+        ]
+    },
+    {
+        "id": "b5c445d16dda4b7c",
+        "type": "ui_switch",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "label": "Chế độ Auto (theo SetPoint)",
+        "tooltip": "",
+        "group": "3b5d8b8900482085",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 780,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a8d4c457f2ab376",
+        "type": "ui_numeric",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "label": "Set Point %",
+        "tooltip": "",
+        "group": "3b5d8b8900482085",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "de5cc0e9b45f4572"
+            ]
+        ]
+    },
+    {
+        "id": "799542cba5813e4b",
+        "type": "ui_switch",
+        "z": "e3e0ccb1eb8f3333",
+        "name": "",
+        "label": "Chế độ Manual (theo nút nhấn)",
+        "tooltip": "",
+        "group": "3b5d8b8900482085",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 790,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3eb54f9a4b4cb4b",
+        "type": "inject",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "396557053020a4cb"
+            ]
+        ]
+    },
+    {
+        "id": "9e16805d7a97dcc6",
+        "type": "drawsvg-local",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "x": 1020,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e1f7fc207e98090",
+        "type": "ui_slider",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "label": "Set Point",
+        "tooltip": "",
+        "group": "bebe9b4002d42f24",
+        "order": 2,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "changewater",
+        "topicType": "msg",
+        "min": "0",
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 120,
+        "y": 200,
+        "wires": [
+            [
+                "1d8ebb0b4ab264c9",
+                "cde64145fc1ca063"
+            ]
+        ]
+    },
+    {
+        "id": "7ade6b25637fd47a",
+        "type": "function",
+        "z": "5bfeef237ac94587",
+        "name": "function 3",
+        "func": "const msgInput = msg.payload;\n\nconst msgOutput =\n{ payload:\n    {\n        command: \"update_style\",\n        selector: \"#WaterLevel\",\n        attributeName: \"height\",\n        attributeValue: msgInput\n    }\n};\nreturn msgOutput;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 80,
+        "wires": [
+            [
+                "88c44c697512b2a0"
+            ]
+        ]
+    },
+    {
+        "id": "7f9e8bf9c0eba25d",
+        "type": "debug",
+        "z": "5bfeef237ac94587",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a4ef563158f2df4b",
+        "type": "range",
+        "z": "5bfeef237ac94587",
+        "minin": "0",
+        "maxin": "1000",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 420,
+        "y": 80,
+        "wires": [
+            [
+                "7ade6b25637fd47a"
+            ]
+        ]
+    },
+    {
+        "id": "88c44c697512b2a0",
+        "type": "ui_svg_graphics",
+        "z": "5bfeef237ac94587",
+        "group": "230873fe20067182",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1000\" height=\"500\" viewBox=\"0 0 1000 500\" preserveAspectRatio=\"xMidYMid meet\"><defs id=\"svgEditorDefs\"><marker id=\"square10\" markerHeight=\"10\" markerUnits=\"strokeWidth\" markerWidth=\"10\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><rect height=\"10\" style=\"fill:black;stroke:none;\" width=\"10\" x=\"-5\" y=\"-5\"/></marker><marker id=\"circle10\" markerHeight=\"10\" markerUnits=\"strokeWidth\" markerWidth=\"10\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><circle cx=\"0\" cy=\"0\" r=\"5\" style=\"fill:black;stroke:none;\"/></marker><marker id=\"arrow20-16-right\" markerHeight=\"16\" markerUnits=\"strokeWidth\" markerWidth=\"20\" orient=\"auto\" refX=\"-3\" refY=\"0\" viewBox=\"-15 -5 20 20\"><path d=\"M -15 -5 L 0 0 L -15 5 z\" fill=\"black\"/></marker><style type=\"text/css\">.svg_a{fill:blue;cursor:pointer;}\n.svg_a:hover{text-decoration:underline;}\n</style></defs><rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"100\" height=\"100\" style=\"fill:none;stroke:none\"/>\n<!-- Add here your SVG shapes (circles, rectangles, ...) -->\n<!-- Or remove everything, if you want to paste an entire drawing (<svg...>...</svg>).-->\n<rect x=\"600\" y=\"300\" style=\"stroke:black;stroke-width:1px;fill:white\" id=\"WaterTank\" width=\"100\" height=\"200\"/><rect x=\"600\" y=\"300\" style=\"stroke-width:1px;fill:cornflowerblue;stroke:cornflowerblue\" id=\"WaterLevel\" width=\"100\" height=\"200\" transform=\"matrix(1 0 0 -1 0 800)\"/><path d=\"M600,400h100\" style=\"fill:none;stroke:red;stroke-width:2px\" id=\"SP_line\"/><text dy=\"-0.5em\" style=\"fill:black;font-family:Arial;font-size:20px\" id=\"e2_text\" xml:space=\"preserve\"><textPath id=\"e1_textPath\" xlink:href=\"#SP_line\" style=\"fill:red;\" spacing=\"exact\" startOffset=\"9.8\">Set Point</textPath></text></svg>",
+        "clickableShapes": [],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "noClickWhenDblClick": false,
+        "outputField": "payload",
+        "editorUrl": "//drawsvg.org/drawsvg.html",
+        "directory": "",
+        "panning": "disabled",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "dblClickZoomPercentage": 150,
+        "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit;\n}",
+        "name": "",
+        "x": 800,
+        "y": 80,
+        "wires": [
+            [
+                "9e16805d7a97dcc6"
+            ]
+        ]
+    },
+    {
+        "id": "396557053020a4cb",
+        "type": "function",
+        "z": "5bfeef237ac94587",
+        "name": "function 4",
+        "func": "\nmsg.payload = Math.floor(Math.random() * 1000);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 80,
+        "wires": [
+            [
+                "a4ef563158f2df4b",
+                "8fdba4e2337795ca",
+                "daf9717367b9a988"
+            ]
+        ]
+    },
+    {
+        "id": "8fdba4e2337795ca",
+        "type": "ui_gauge",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "group": "230873fe20067182",
+        "order": 3,
+        "width": 20,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Mực nước",
+        "label": " mL",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 790,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "daf9717367b9a988",
+        "type": "ui_chart",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "group": "230873fe20067182",
+        "order": 2,
+        "width": 20,
+        "height": 7,
+        "label": "Biểu đồ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1200",
+        "removeOlder": "10",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 780,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35b3263cef82cf86",
+        "type": "ui_button",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "group": "bebe9b4002d42f24",
+        "order": 4,
+        "width": 10,
+        "height": 1,
+        "passthru": false,
+        "label": "Bơm vào",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "acb7cbeedf0759f0",
+        "type": "ui_button",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "group": "bebe9b4002d42f24",
+        "order": 5,
+        "width": 10,
+        "height": 1,
+        "passthru": false,
+        "label": "Bơm ra",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d8ebb0b4ab264c9",
+        "type": "range",
+        "z": "5bfeef237ac94587",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "500",
+        "maxout": "300",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 420,
+        "y": 200,
+        "wires": [
+            [
+                "261369b29618bd23"
+            ]
+        ]
+    },
+    {
+        "id": "261369b29618bd23",
+        "type": "function",
+        "z": "5bfeef237ac94587",
+        "name": "function 7",
+        "func": "const Setpoint = msg.payload;\nlet Mid = Setpoint.toString();\nlet Left = \"M600,\";\nlet Right = \"h100\";\nlet d = Left + Mid + Right;\n\nconst msgOutput =\n{ payload:\n    {\n        command: \"update_attribute\",\n        selector: \"#SP_line\",\n        attributeName: \"d\",\n        attributeValue: d\n    }\n};\nreturn msgOutput;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 260,
+        "wires": [
+            [
+                "88c44c697512b2a0",
+                "7f9e8bf9c0eba25d"
+            ]
+        ]
+    },
+    {
+        "id": "9cbde5fce59d1326",
+        "type": "ui_switch",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "label": "Chế độ Auto (theo SetPoint)",
+        "tooltip": "",
+        "group": "bebe9b4002d42f24",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 140,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cde64145fc1ca063",
+        "type": "ui_numeric",
+        "z": "5bfeef237ac94587",
+        "name": "",
+        "label": "Set Point %",
+        "tooltip": "",
+        "group": "bebe9b4002d42f24",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "9e1f7fc207e98090"
+            ]
+        ]
+    },
+    {
+        "id": "c4ecfd23cba32552",
+        "type": "drawsvg-local",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "x": 1340,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91fde90a81cf72f7",
+        "type": "range",
+        "z": "c852696e7e8c3dc8",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "500",
+        "action": "clamp",
+        "round": false,
+        "property": "payload",
+        "name": "ngang qua lại",
+        "x": 300,
+        "y": 340,
+        "wires": [
+            [
+                "51131e1ccb2abf4a"
+            ]
+        ]
+    },
+    {
+        "id": "51131e1ccb2abf4a",
+        "type": "function",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "func": "const msgInput = msg.payload; //input\n\nconst msgOutput = \n{ payload: \n    {\n    command:\"update_style\", // \"update_style\" means update CSS\n    selector:\"#tank2\", // id's string\n    attributeName:\"width\",// Width\n    attributeValue: msgInput    // parameter's new value\n    }\n};\n\nreturn msgOutput; //output",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "18bbf3410b6d503a"
+            ]
+        ]
+    },
+    {
+        "id": "1fbb47df73ddf567",
+        "type": "ui_slider",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "label": "Độ rộng",
+        "tooltip": "",
+        "group": "a450f0162daeb62e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "91fde90a81cf72f7"
+            ]
+        ]
+    },
+    {
+        "id": "18bbf3410b6d503a",
+        "type": "ui_svg_graphics",
+        "z": "c852696e7e8c3dc8",
+        "group": "a450f0162daeb62e",
+        "order": 0,
+        "width": "14",
+        "height": "12",
+        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1230px\" height=\"830px\" viewBox=\"-1.0709730386734009 -0.9890803098678589 1232.1414794921875 831.9780883789062\" preserveAspectRatio=\"xMidYMid meet\"><defs id=\"svgEditorDefs\"><marker id=\"square10\" markerHeight=\"10\" markerUnits=\"strokeWidth\" markerWidth=\"10\" orient=\"auto\" refX=\"0\" refY=\"0\" viewBox=\"-5 -5 10 10\"><rect height=\"10\" style=\"fill:black;stroke:none;\" width=\"10\" x=\"-5\" y=\"-5\"/></marker><marker id=\"arrow15-12-right\" markerHeight=\"12\" markerUnits=\"strokeWidth\" markerWidth=\"15\" orient=\"auto\" refX=\"-3\" refY=\"0\" viewBox=\"-15 -5 20 20\"><path d=\"M -15 -5 L 0 0 L -15 5 z\" fill=\"black\" style=\"stroke:none;\"/></marker><style type=\"text/css\">.svg_a{fill:blue;cursor:pointer;}\n.svg_a:hover{text-decoration:underline;}\n\n</style><linearGradient gradientUnits=\"objectBoundingBox\" id=\"lgrd2-b\" spreadMethod=\"pad\" x1=\"0\" x2=\"100%\" y1=\"0\" y2=\"0\"><stop offset=\"0%\" stop-color=\"#BBC42A\"/><stop offset=\"100%\" stop-color=\"#ED6E46\"/></linearGradient></defs>\n  <rect id=\"svgEditorBackground\" x=\"0\" y=\"0\" width=\"1230\" height=\"830\" style=\"fill:none; stroke: none;\"/>\n  <g id=\"g_e3_svg\"/>\n  \n<rect x=\"208.627000\" y=\"202.482000\" style=\"stroke: none; stroke-width:1px;fill:dodgerblue;\" id=\"OnOff\" width=\"195.325000\" height=\"246.000000\"/><g id=\"g_e1_svg\"><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"98.2032\" height=\"47.4363\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid meet\" id=\"e1_input_svg\" x=\"835.3723754882812\" y=\"489.3377685546875\"><desc>Copyright Opto 22</desc> </svg></g><a id=\"e1_hyperlink\" xlink:title=\"\" xlink:href=\"\" target=\"_blank\" class=\"svg_a\"/><rect x=\"523.59361596462\" y=\"183.630\" style=\"fill:deeppink;stroke:none;stroke-width:100px;\" id=\"tank2\" width=\"332.57171433691\" height=\"304.54600807257\" transform=\"matrix(-0.809271 0 0 -0.742155 1170.95 582.14)\"/></svg>",
+        "clickableShapes": [],
+        "javascriptHandlers": [],
+        "smilAnimations": [],
+        "bindings": [
+            {
+                "selector": "#relay220V_polygon",
+                "bindSource": "payload.relay220V.x",
+                "bindType": "attr",
+                "attribute": "x"
+            }
+        ],
+        "showCoordinates": false,
+        "autoFormatAfterEdit": false,
+        "showBrowserErrors": false,
+        "showBrowserEvents": false,
+        "enableJsDebugging": false,
+        "sendMsgWhenLoaded": false,
+        "noClickWhenDblClick": false,
+        "outputField": "payload",
+        "editorUrl": "http://127.0.0.1:1880/drawsvg_local/edrawsvg.html",
+        "directory": "",
+        "panning": "both",
+        "zooming": "disabled",
+        "panOnlyWhenZoomed": false,
+        "doubleClickZoomEnabled": false,
+        "mouseWheelZoomEnabled": false,
+        "dblClickZoomPercentage": "150",
+        "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit;\n}",
+        "name": "SVG graphics (local) - Bình nước",
+        "x": 1060,
+        "y": 340,
+        "wires": [
+            [
+                "c4ecfd23cba32552"
+            ]
+        ]
+    },
+    {
+        "id": "3ddc6985c568cc9f",
+        "type": "change",
+        "z": "c852696e7e8c3dc8",
+        "name": "SET update_style (#ống_bơm_vào_polygon ,fill-opacity,1)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"command\":\"update_style\",\"selector\":\"#OnOff\",\"attributeName\":\"fill-opacity\",\"attributeValue\":1}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 480,
+        "wires": [
+            [
+                "18bbf3410b6d503a"
+            ]
+        ]
+    },
+    {
+        "id": "92bf78392adb422d",
+        "type": "change",
+        "z": "c852696e7e8c3dc8",
+        "name": "SET update_style (#ống_bơm_vào_polygon ,fill-opacity,0)",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"command\":\"update_style\",\"selector\":\"#OnOff\",\"attributeName\":\"fill-opacity\",\"attributeValue\":0}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 420,
+        "wires": [
+            [
+                "18bbf3410b6d503a"
+            ]
+        ]
+    },
+    {
+        "id": "9766e32c2ab7ac5b",
+        "type": "ui_button",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "group": "a450f0162daeb62e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ẩn",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 420,
+        "wires": [
+            [
+                "92bf78392adb422d"
+            ]
+        ]
+    },
+    {
+        "id": "f59b568916990f87",
+        "type": "ui_button",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "group": "a450f0162daeb62e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Hiện",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 480,
+        "wires": [
+            [
+                "3ddc6985c568cc9f"
+            ]
+        ]
+    },
+    {
+        "id": "2945383afb9302cd",
+        "type": "ui_slider",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "label": "Di chuyển qua lại",
+        "tooltip": "",
+        "group": "a450f0162daeb62e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 530,
+        "y": 520,
+        "wires": [
+            [
+                "f9d6864d303672d5"
+            ]
+        ]
+    },
+    {
+        "id": "f9d6864d303672d5",
+        "type": "function",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "func": "const msgInput = msg.payload; //input\n\nconst msgOutput = \n{ payload: \n    {\n    command:\"update_attribute\", // \"update_style\" means update CSS\n    selector:\"#OnOff\", // id's string\n    attributeName:\"x\",//  dịch theo phương x\n    attributeValue: msgInput    // parameter's new value\n    }\n};\n\nreturn msgOutput; //output",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 520,
+        "wires": [
+            [
+                "18bbf3410b6d503a"
+            ]
+        ]
+    },
+    {
+        "id": "b20ac646d32e771d",
+        "type": "range",
+        "z": "c852696e7e8c3dc8",
+        "minin": "0",
+        "maxin": "100",
+        "minout": "0",
+        "maxout": "500",
+        "action": "clamp",
+        "round": false,
+        "property": "payload",
+        "name": "cao lên xuống",
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "90dac144a497bdf3"
+            ]
+        ]
+    },
+    {
+        "id": "90dac144a497bdf3",
+        "type": "function",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "func": "const msgInput = msg.payload; //input\n\nconst msgOutput = \n{ payload: \n    {\n    command:\"update_style\", // \"update_style\" means update CSS\n    selector:\"#tank2\", // id's string\n    attributeName:\"height\",// Width\n    attributeValue: msgInput    // parameter's new value\n    }\n};\n\nreturn msgOutput; //output",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 280,
+        "wires": [
+            [
+                "18bbf3410b6d503a"
+            ]
+        ]
+    },
+    {
+        "id": "4bed1805da84a869",
+        "type": "ui_slider",
+        "z": "c852696e7e8c3dc8",
+        "name": "",
+        "label": "Chiều cao",
+        "tooltip": "",
+        "group": "a450f0162daeb62e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "b20ac646d32e771d"
+            ]
+        ]
+    }
+]
