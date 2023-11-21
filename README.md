@@ -1,6 +1,14 @@
 # HỆ THỐNG ĐIỀU KHIỂN MỰC NƯỚC QUA SERVER MONGO REALM
 # I. Giới thiệu
 Đề tài "Hệ thống điều khiển mực nước qua server Mongo Realm" nhằm mục đích thiết kế và xây dựng một hệ thống cơ bản để quản lý mực nước trong bồn nước thông qua vi điều khiển ESP32 và cảm biến siêu âm, kết hợp với việc sử dụng Node-red để thiết kế giao diện điều khiển, cũng như việc áp dụng server Mongo Realm trong việc lưu trữ và xử lý dữ liệu.
+Ngoài ra, hệ thống còn sử dụng bộ lọc Kalman cho cảm biến giúp giảm nhiễu gây ảnh hưởng kết quả đo.
+
+<div align="center">
+    <video src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/f8195c4b-840f-485b-af75-985e9299bacf" alt="Demo video" height=200/>
+</div>
+
+<hr>
+
 # II. Sơ đồ phần cứng
 <p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/ce2ef834-5448-49a7-8bcd-3b06e94c14e1" alt="Sơ đồ khối tổng quát hệ thống" width="640"/></p>
 <p align="center"><strong><em>Hình 1:</em></strong> Sơ đồ khối tổng quát hệ thống</p>
@@ -291,3 +299,9 @@ exports = async function({ query, headers, body }, response) {
 -	Hàm GET: được sử dụng để xử lý request được gửi đến địa chỉ endpoint. Function này nhận một đối tượng request, bao gồm các thông tin như query parameters, headers, body, và response object được sử dụng để trả về kết quả xử lý cho client. Trong function, đầu tiên nó truy vấn tới collection "WaterTank_SP" trong database "MyData" trên MongoDB Atlas để lấy giá trị SetPoint mới nhất được lưu trữ. Sau đó, function tiếp tục truy vấn đến collection "WaterTank_Data" để lấy giá trị Level mới nhất được lưu trữ. Tiếp theo, function tính toán độ chênh lệch giữa giá trị SetPoint và Level, lưu vào biến ER. Sau đó, nó kiểm tra xem độ chênh lệch có lớn hơn Offset hay không. Nếu lớn hơn, biến control được gán giá trị 1 để điều khiển bơm đưa nước vào.  Ngược lại, nếu nhỏ hơn, biến control được gán giá trị 2 để điều khiển bơm đưa nước ra. Trong trường hợp độ chênh lệch bằng 0, biến control được gán giá trị 0 để tắt bơm. Cuối cùng, function trả về giá trị control để sử dụng cho mục đích điều khiển bơm nước.
 <p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/a4b307d4-6407-429f-982a-ac8af6e43158" alt="Sơ đồ thuật toán hàm Get" width="540"/></p>
 <p align="center"><strong><em>Hình 8:</em></strong> Sơ đồ thuật toán hàm Get</p>
+
+### 4.2 Database
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/29afb3df-2b76-493b-ae6a-3deae4caf5bf" alt="Database trên Monggo Atlas" width="540"/></p>
+<p align="center"><strong><em>Hình 9:</em></strong> Database trên Monggo Atlas</p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/0b368529-b193-401d-9d62-048509615174" alt="Biểu đồ từ dữ liệu trên database" width="540"/></p>
+<p align="center"><strong><em>Hình 10:</em></strong> Biểu đồ từ dữ liệu trên database</p>
