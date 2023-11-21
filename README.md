@@ -4,13 +4,13 @@
 Ngoài ra, hệ thống còn sử dụng bộ lọc Kalman cho cảm biến giúp giảm nhiễu gây ảnh hưởng kết quả đo.
 
 <div align="center">
-    <video src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/f8195c4b-840f-485b-af75-985e9299bacf" alt="Demo video" height=200/>
+    <video src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/46b7c483-7c6e-49ce-8e28-08a6664b40be" alt="Demo video" height=200/>
 </div>
-
+        
 <hr>
 
 # II. Sơ đồ phần cứng
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/ce2ef834-5448-49a7-8bcd-3b06e94c14e1" alt="Sơ đồ khối tổng quát hệ thống" width="640"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/0a8dd02e-5b08-4e43-bd64-94c5d55d1b1f" alt="Sơ đồ khối tổng quát hệ thống" width="640"/></p>
 <p align="center"><strong><em>Hình 1:</em></strong> Sơ đồ khối tổng quát hệ thống</p>
 
 ## 1.1.1	Khối động lực nước và nguồn
@@ -32,7 +32,7 @@ Thông số kĩ thuật :
 -	Mạch cầu H : Module L298, điện áp hoạt động 5V-35V, dòng điều khiển động cơ 2A, nhiệt độ hoạt động -20 tới +135, công suất đầu ra 25W.
 # II. Thiết kế giao diện (Node-red)
 Bao gồm 2 phần chính: thông số hệ thống và điều khiển hệ thống.
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/b4f5d26d-a114-44fe-a03c-c330af53c72a" alt="Giao diện web app điều khiển và giám sát hệ thống" width="640"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/33977959-b638-48c7-8916-d1f0ab0a06ea" alt="Giao diện web app điều khiển và giám sát hệ thống" width="640"/></p>
 <p align="center"><strong><em>Hình 2:</em></strong> Giao diện web app điều khiển và giám sát hệ thống</p>
 
 ## 2.1 Phần thông số hệ thống:
@@ -42,19 +42,19 @@ Bao gồm 2 phần chính: thông số hệ thống và điều khiển hệ th�
 ## 2.2 Phần điều khiển hệ thống:
 Setpoint là tham số được truyền từ trang web đến server thông qua giao thức HTTP. Tham số này được sử dụng để điều khiển máy bơm vào và máy bơm ra. Khi mực nước thấp hơn setpoint, server sẽ gửi tín hiệu điều khiển máy bơm để bơm nước vào bồn. Ngược lại, khi mực nước vượt quá setpoint, server sẽ gửi tín hiệu điều khiển máy bơm để bơm nước ra khỏi bồn. Điều này giúp duy trì mực nước trong bồn ở mức ổn định.
 ## 2.3 Code Node-red
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/7450b8bc-b984-4af2-bd6d-deff88b125b7" alt="Lưu đồ giải thuật Node-red" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/0f2bfaf9-0bc7-400f-9add-7509b1fa0177" alt="Lưu đồ giải thuật Node-red" width="540"/></p>
 <p align="center"><strong><em>Hình 3:</em></strong> Lưu đồ giải thuật Node-red</p>
 Trước khi import file JSON cần cài đặt các Palette sau:
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/91e56617-db0f-488a-9772-77604b3865b8" alt="Các Palette cần cài đặt" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/d07dc896-211b-44e4-9e10-4434e6800b3a" alt="Các Palette cần cài đặt" width="540"/></p>
 <p align="center"><strong><em>Hình 4:</em></strong> Các Palette cần cài đặt</p>
 Import file  "SVG_Watertank.json" and Deloy
 Hình ảnh Node-red sau import:
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/2330d518-e1cb-47fe-bd3e-0b2ccf4a8c16" alt="Sơ đồ các khối trên Node-red" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/3275d334-be5c-45d5-a606-2978a068da8a" alt="Sơ đồ các khối trên Node-red" width="540"/></p>
 <p align="center"><strong><em>Hình 5:</em></strong> Sơ đồ các khối trên Node-red</p>
 
 # III. Lập trình phần cứng
 ## 3.1	Lưu đồ giải thuật trên ESP32
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/de0d1637-abac-441f-b1e0-90d6de3cec8a" alt="Lưu đồ giải thuật trên ESP32" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/3e1d254a-769b-45ea-82d7-4d74d3f85173" alt="Lưu đồ giải thuật trên ESP32" width="540"/></p>
 <p align="center"><strong><em>Hình 6:</em></strong> Lưu đồ giải thuật trên ESP32</p>
 
   ESP32 được kết nối với một mạng Wi-Fi và truyền nhận dữ liệu từ cơ sở dữ liệu MongoDB. Chương trình sử dụng cảm biến siêu âm HC-SR04 để đo mức nước trong bồn và điều khiển hai bơm nước, một để bơm nước vào bồn và một để bơm nước ra khỏi bồn. Chương trình bao gồm hai hàm chính Post() và Get() để gửi và nhận dữ liệu từ cơ sở dữ liệu MongoDB.
@@ -269,7 +269,7 @@ exports = async function({ query, headers, body }, response) {
 
 ```
 -	Hàm POST : có chức năng lưu một đối tượng mới lên server. Khi được gọi, hàm này sẽ nhận đầu vào là một đối tượng dưới dạng JSON, sau đó thực hiện việc lưu trữ đối tượng này vào cơ sở dữ liệu MongoDB. Trong quá trình lưu trữ, hàm này cũng sẽ kiểm tra tính hợp lệ của dữ liệu và thông báo kết quả về việc lưu trữ cho người dùng. Nếu lưu trữ thành công, hàm sẽ trả về một thông báo thành công cùng với đối tượng đã được lưu trữ. Nếu lưu trữ không thành công, hàm sẽ trả về một thông báo lỗi cùng với các thông tin về lỗi đã xảy ra. Sử dụng hàm POST, trước tiên phải truy cập vào MongoDB Realm bằng cách sử dụng đối tượng context.services và truy cập vào cơ sở dữ liệu "MyData" và bảng "WaterTank_Data" bằng phương thức .db() và .collection(). Sau đó, đối tượng JSON được phân tích từ chuỗi dữ liệu được truyền vào body.text(), và được chèn vào cơ sở dữ liệu bằng phương thức .insertOne(). Cuối cùng, kết quả trả về từ chức năng này là một đối tượng esp được chèn vào cơ sở dữ liệu, và nó sẽ được gửi trả về như một phản hồi (response) cho yêu cầu gốc. Trong hàm Post cũng tính toán quy đổi thời gian thực theo múi giờ GMT +7 để thuận tiện cho việc vẽ biểu đồ. Quá trình tính toán Kalman cũng được thực hiện tại đây, chương trình sẽ lấy giá trị Kalman đã tính được từ dữ liệu được lọc từ database trước đó nếu chưa có sẽ cho nó bằng 0 và giá trị đo được hiện tại.
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/ccd4b29e-4614-4261-b8fc-3035b7fdcefb" alt="Sơ đồ thuật toán hàm Post" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/786a54cc-fbb4-4cf9-94c7-d521926998a8" alt="Sơ đồ thuật toán hàm Post" width="540"/></p>
 <p align="center"><strong><em>Hình 7:</em></strong> Sơ đồ thuật toán hàm Post</p>
 
 Chương trình hàm GET:
@@ -297,11 +297,11 @@ exports = async function({ query, headers, body }, response) {
 ```
 
 -	Hàm GET: được sử dụng để xử lý request được gửi đến địa chỉ endpoint. Function này nhận một đối tượng request, bao gồm các thông tin như query parameters, headers, body, và response object được sử dụng để trả về kết quả xử lý cho client. Trong function, đầu tiên nó truy vấn tới collection "WaterTank_SP" trong database "MyData" trên MongoDB Atlas để lấy giá trị SetPoint mới nhất được lưu trữ. Sau đó, function tiếp tục truy vấn đến collection "WaterTank_Data" để lấy giá trị Level mới nhất được lưu trữ. Tiếp theo, function tính toán độ chênh lệch giữa giá trị SetPoint và Level, lưu vào biến ER. Sau đó, nó kiểm tra xem độ chênh lệch có lớn hơn Offset hay không. Nếu lớn hơn, biến control được gán giá trị 1 để điều khiển bơm đưa nước vào.  Ngược lại, nếu nhỏ hơn, biến control được gán giá trị 2 để điều khiển bơm đưa nước ra. Trong trường hợp độ chênh lệch bằng 0, biến control được gán giá trị 0 để tắt bơm. Cuối cùng, function trả về giá trị control để sử dụng cho mục đích điều khiển bơm nước.
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/a4b307d4-6407-429f-982a-ac8af6e43158" alt="Sơ đồ thuật toán hàm Get" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/5d4fe13d-c4a2-4fbe-8493-2025131bbea4" alt="Sơ đồ thuật toán hàm Get" width="540"/></p>
 <p align="center"><strong><em>Hình 8:</em></strong> Sơ đồ thuật toán hàm Get</p>
 
 ### 4.2 Database
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/29afb3df-2b76-493b-ae6a-3deae4caf5bf" alt="Database trên Monggo Atlas" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/993b74a9-0054-4261-9d7a-49a215d97bb1" alt="Database trên Monggo Atlas" width="540"/></p>
 <p align="center"><strong><em>Hình 9:</em></strong> Database trên Monggo Atlas</p>
-<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/0b368529-b193-401d-9d62-048509615174" alt="Biểu đồ từ dữ liệu trên database" width="540"/></p>
+<p align="center"><img src="https://github.com/3qthanh7/Water-level-using-esp32-node-red-and-mongodb/assets/102430232/2d6555ff-6afb-401e-9cd5-b973bc54f21c" alt="Biểu đồ từ dữ liệu trên database" width="540"/></p>
 <p align="center"><strong><em>Hình 10:</em></strong> Biểu đồ từ dữ liệu trên database</p>
